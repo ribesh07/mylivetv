@@ -1,1 +1,94 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"mylivetv-f582b","appId":"1:893790912854:android:be72ed63d1c2b14ed796f7","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"mylivetv-f582b","configurations":{"android":"1:893790912854:android:be72ed63d1c2b14ed796f7","ios":"1:893790912854:ios:1a70becfb98d397bd796f7","macos":"1:893790912854:ios:1a70becfb98d397bd796f7","web":"1:893790912854:web:fae95bfa6d19f99dd796f7","windows":"1:893790912854:web:7366612b46644d9cd796f7"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "mylivetv-f582b",
+          "appId": "1:893790912854:android:be72ed63d1c2b14ed796f7",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "mylivetv-f582b",
+          "configurations": {
+            "android": "1:893790912854:android:be72ed63d1c2b14ed796f7",
+            "ios": "1:893790912854:ios:1a70becfb98d397bd796f7",
+            "macos": "1:893790912854:ios:1a70becfb98d397bd796f7",
+            "web": "1:893790912854:web:fae95bfa6d19f99dd796f7",
+            "windows": "1:893790912854:web:7366612b46644d9cd796f7"
+          }
+        }
+      }
+    }
+  },
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ],
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "emulators": {
+    "auth": {
+      "port": 8074
+    },
+    "functions": {
+      "port": 8000
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "database": {
+      "port": 9000
+    },
+    "hosting": {
+      "port": 5000
+    },
+    "pubsub": {
+      "port": 8085
+    },
+    "storage": {
+      "port": 9199
+    },
+    "eventarc": {
+      "port": 9299
+    },
+    "dataconnect": {
+      "port": 9399,
+      "localConnectionString": "postgresql://localhost:5432"
+    },
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": true
+  },
+  "remoteconfig": {
+    "template": "remoteconfig.template.json"
+  },
+  "extensions": {}
+}

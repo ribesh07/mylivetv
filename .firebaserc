@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "default": "mylivetv-f582b"
+  },
+  "dataconnectEmulatorConfig": {
+    "postgres": {
+      "localConnectionString": {
+        "localConnectionString": "postgresql://localhost:5432"
+      }
+    }
+  }
+}
