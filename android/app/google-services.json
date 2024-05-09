@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "893790912854",
+    "project_id": "mylivetv-f582b",
+    "storage_bucket": "mylivetv-f582b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893790912854:android:be72ed63d1c2b14ed796f7",
+        "android_client_info": {
+          "package_name": "com.example.mylivetv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYapz37g2VKhaTt032dfGdIvhqUXikiNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
